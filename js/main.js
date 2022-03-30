@@ -4,7 +4,7 @@ function reverseStr(str) {
 }
 
 
-const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
+const palindromeCheck = str => console.log(str === str.split('').reverse().join(''))
 
 const audio = new Audio('Missy.mp3');
 
