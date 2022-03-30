@@ -4,9 +4,12 @@ function reverseStr(str) {
 }
 
 const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
+
+const audio = new Audio('audio_file.mp3');
+
 const missyPalindrome (str) {
   if palindromeCheck = 'true'{
-    set dom background missy-elliot.gif
-    play mp4
+    document.querySelector('body').style.backgroundImage = "url(https://c.tenor.com/EXzrW3-GMGoAAAAC/missy-elliot-work-it.gif)"
+    audio.play();
   }
 }
