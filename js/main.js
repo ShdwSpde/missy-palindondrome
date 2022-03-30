@@ -3,4 +3,10 @@ function reverseStr(str) {
   console.log(reverseStr)
 }
 
-missy-elliot.gif
+const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
+const missyPalindrome (str) {
+  if palindromeCheck = 'true'{
+    set dom background missy-elliot.gif
+    play mp4
+  }
+}
