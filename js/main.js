@@ -3,6 +3,10 @@ function reverseStr(str) {
   console.log(reverseStr)
 }
 
+
+document.getElementById("submit").onclick = missyPalindrome(document.getElementById("workIt")
+
+
 const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
 
 const audio = new Audio('audio_file.mp3');
