@@ -4,9 +4,6 @@ function reverseStr(str) {
 }
 
 
-document.getElementById("submit").onclick = missyPalindrome(document.getElementById("workIt"))
-
-
 const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
 
 const audio = new Audio('Missy.mp3');
@@ -17,3 +14,5 @@ const missyPalindrome = function(str) {
     audio.play();
   }
 }
+
+document.getElementById("submit").onclick = missyPalindrome(document.getElementById("workIt"))
