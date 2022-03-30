@@ -12,7 +12,7 @@ const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
 const audio = new Audio('Missy.mp3');
 
 const missyPalindrome = function(str) {
-  if palindromeCheck = 'true'{
+  if (palindromeCheck() = 'true'){
     document.querySelector('body').style.backgroundImage = "url(https://c.tenor.com/EXzrW3-GMGoAAAAC/missy-elliot-work-it.gif)"
     audio.play();
   }
