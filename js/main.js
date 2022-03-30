@@ -9,7 +9,7 @@ document.getElementById("submit").onclick = missyPalindrome(document.getElementB
 
 const palindromeCheck = str => alert(str === str.split('').reverse().join(''))
 
-const audio = new Audio('missy.mp3');
+const audio = new Audio('Missy.mp3');
 
 const missyPalindrome (str) {
   if palindromeCheck = 'true'{
